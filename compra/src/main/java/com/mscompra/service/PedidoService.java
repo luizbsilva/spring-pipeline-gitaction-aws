@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class PedidoService {
 
-    private final PedidoRepository pedidoRepository;
+  private final PedidoRepository pedidoRepository;
 
-    public Pedido salvar(Pedido pedido) {
-        return pedidoRepository.save(pedido);
-    }
+  public Pedido salvar(Pedido pedido) {
+    return pedidoRepository.save(pedido);
+  }
 
 }
